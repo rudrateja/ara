@@ -1,0 +1,123 @@
+body {
+  background-color: #ececec;
+}
+.ara-header {
+
+  background-color: #2980b9;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.dashboard-logo {
+  font-size: 1.5em;
+  padding: 15px;
+  font-weight: bold;
+  background-color: #195e8c;
+  color: #ffffff;
+  text-align: center;
+}
+.nav-item {
+  padding: 15px;
+  color: #ffffff;
+  text-decoration: none;
+  font-size:1.2em;
+}
+.nav-block {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin: 0 15px;
+}
+.user-action-block {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+.logout-button {
+  background-color: #195e8c;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dashboard-container {
+  /* display: flex; */
+  padding: 15px;
+  background-color: #ffffff;
+  padding: 15px;
+}
+
+.ara-table {
+  width: 100%;
+  border-collapse: collapse
+}
+table.ara-table, th, td {
+  border: 1px solid rgb(160, 160, 160);
+  padding: 5px;
+  color: #474747;
+  text-align: center;
+}
+.ara-h2 {
+  color: #195e8c;
+}
+.login-page {
+  background-color:azure;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.login-block {
+  width: 400px;
+  background-color: #ffffff;
+  border: 1px solid #a1a1a1;
+  display: flex;
+  flex-direction: column;
+}
+.login-logo-block {
+  background-color: #195e8c;
+  text-align: center;
+  font-size: 2.5em;
+  color: #ffffff;
+  padding: 15px;
+  font-weight: bold;
+}
+.login-form-block {
+  padding: 15px;
+}
+.form-element {
+  width: 100%;
+  margin: 15px 0;
+}
+.ara-input {
+  width: 100%;
+  border: 1px solid #bebebe;
+  padding: 10px;
+  font-size: 1.2em;
+  box-sizing: border-box;
+  color: #474747;
+}
+.ara-button-primary {
+  padding: 5px 10px;
+  background-color: #195e8c;
+  color:#ffffff;
+  border:none;
+  font-size: 1em;
+  cursor: pointer;
+}
+.error-text {
+  color: rgb(253, 67, 67);
+  font-size: 0.7em;
+}
+.input-error {
+  border: 1px solid rgb(253, 67, 67);
+}
